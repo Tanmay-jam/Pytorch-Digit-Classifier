@@ -18,4 +18,11 @@ Normalization helps to get pixel values to optimal range and better comparison o
 
 Data is loaded into training set and testing set differently with batch size of 64. Getting data in batches makes training faster.
 
+## Model Training
+A convolution model is created to clasiify images into 10 different digits.
+While the input dimensions are 28x28, output is of 10 different classes.
+The model is trained using CrossEntropyLoss as criterion and Stochastic Gradient Descent optimizer.
+
+The final model reaches 96.5% test accuracy with 1 hidden layer using tanh activation in 15 epochs.
+
 
